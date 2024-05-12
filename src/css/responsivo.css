@@ -1,0 +1,218 @@
+@media screen and (max-width: 475px){
+    body{
+        height: 1200px;
+    }
+    .container_total{
+       display: flex;
+       flex-direction: column;
+       padding-left: 0;
+       padding-top: 500px;
+    }
+    .usuario{
+        height: 220px;
+        width: 350px;
+        margin-bottom: 20px;
+    }
+    .info_do_user{
+        height: 150px;
+        width: 350px;
+        display: flex;
+        flex-direction: column;
+    }
+    .info_do_user img{
+        width: 80px;
+        height: 80px;
+        position: absolute;
+    }
+    .info_do_user h2{
+        font-size: 20px;
+        width: 200px;
+        margin-left: 120px;
+    }
+    .info_do_user h3{
+        font-weight: 400;
+        margin-left: 120px;
+        margin-top: 50px;
+    }
+    .dia_semana_mes ul{
+      display: flex;
+      justify-content: center;
+    }
+    .dia_semana_mes button{
+        font-size: 20px;
+    }
+    .work{
+        height: 200px;
+        margin-bottom: 20px;
+    }
+    
+    .work_text h3{
+        position: absolute;
+        color: white;
+        padding: 20px;
+        z-index: 1;
+    }
+    
+    .work_text .tempo{
+        color: white;
+        font-size: 30px;
+        padding-left: 20px;
+        position: relative;
+        right: 180px;
+        top: 50px;
+    }
+    .work_text p{
+        margin-left: 180px;
+        margin-top: 20px;
+    }
+    .play{
+        height: 200px;
+        margin-bottom: 20px;
+    }
+    .play_text h3{
+        position: absolute;
+        color: white;
+        padding: 20px;
+        
+    }
+    
+    .play_text .tempo{
+        color: white;
+        font-size: 30px;
+        padding-left: 20px;
+        position: relative;
+        right: 180px;
+        top: 50px;
+    }
+    .play_text p{
+        margin-left: 180px;
+        margin-top: 20px;
+    }
+    .study{
+        height: 200px;
+        margin-bottom: 20px;
+    }
+    .study_text h3{
+        color: white;
+        padding: 20px;
+    }
+    
+    .study_text h3{
+        position: absolute;
+        color: white;
+        padding: 20px;
+        
+    }
+    
+    .study_text .tempo{
+        color: white;
+        font-size: 30px;
+        padding-left: 20px;
+        position: relative;
+        right: 180px;
+        top: 50px;
+    }
+    .study_text p{
+        margin-left: 180px;
+        margin-top: 20px;
+    }
+    .exercise{
+        height: 200px;
+        margin-bottom: 20px;
+    }
+    .exercise_text h3{
+        color: white;
+        padding: 20px;
+    }
+    
+    .exercise_text h3{
+        position: absolute;
+        color: white;
+        padding: 20px;
+        
+    }
+    
+    .exercise_text .tempo{
+        color: white;
+        font-size: 30px;
+        padding-left: 20px;
+        position: relative;
+        right: 180px;
+        top: 50px;
+    }
+    .exercise_text p{
+        margin-left: 180px;
+        margin-top: 20px;
+    }
+    .social{
+        height: 200px;
+        margin-bottom: 20px;
+    }
+    
+    .social_text h3{
+        position: absolute;
+        color: white;
+        padding: 20px;
+
+    }
+    
+    .social_text .tempo{
+        color: white;
+        font-size: 30px;
+        padding-left: 20px;
+        position: relative;
+        right: 180px;
+        top: 50px;
+    }
+    .social_text p{
+        margin-left: 180px;
+        margin-top: 20px;
+    }
+    .self{
+        height: 200px;
+        margin-bottom: 20px;
+    }
+    .self_text h3{
+        color: white;
+        padding: 20px;
+    }
+    
+    .self_text h3{
+        position: absolute;
+        color: white;
+        padding: 20px;
+        
+    }
+    
+    .self_text .tempo{
+        color: white;
+        font-size: 30px;
+        padding-left: 20px;
+        position: relative;
+        right: 180px;
+        top: 50px;
+    }
+    .self_text p{
+        margin-left: 180px;
+        margin-top: 20px;
+    }
+     
+    .icon{
+       overflow: visible;
+    }
+    .icon_play{
+        overflow: visible;
+     }
+     .icon_study{
+        overflow: visible;
+     }
+     .icon_exercise{
+        overflow: visible;
+     }
+     .icon_social{
+        overflow: visible;
+     }
+     .icon_self{
+        overflow: visible;
+     }
+}

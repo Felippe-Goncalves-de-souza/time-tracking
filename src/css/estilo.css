@@ -1,0 +1,411 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Rubik", sans-serif; 
+}
+
+body{
+    background-color: hsl(226, 43%, 10%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    height: 900px;
+}
+.container_total{
+    padding-left: 90px;
+    display: grid;
+    grid-template-columns: repeat(4, 400px);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    justify-items: center;
+    align-items: center;
+    grid-template-areas:
+    "usuario work play study"
+    "usuario exercise social self"
+}
+.usuario{
+    border: 1px solid black;
+    background-color: hsl(235, 46%, 20%);
+    border-radius: 20px;
+    justify-self: end;
+    grid-area: usuario;
+}
+.info_do_user{
+    background-color:hsl(246, 80%, 60%);
+    height: 450px;
+    width: 300px;
+    border-radius: 20px;
+}
+
+.info_do_user img{
+    height: 100px;
+    margin: 30px;
+}
+.info_do_user h2{
+    font-size: 50px;
+    font-weight: 400;
+    color: white;
+    width: 100px;
+    margin-left: 30px;
+}
+.info_do_user h3{
+    color: white;
+    font-weight: 400;
+    margin-left: 30px;
+}
+.dia_semana_mes{
+    background-color: hsl(235, 46%, 20%);
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+.dia_semana_mes ul{
+    list-style: none;
+}
+.dia_semana_mes button{
+    font-size: 20px;
+    background-color: hsl(235, 46%, 20%);
+    color:hsl(236, 100%, 87%);
+    border: none;
+    border-radius: 20px;
+    padding: 20px;
+}
+.dia_semana_mes button:hover{
+    color: white;
+}
+
+.work_daily{
+    display: block;
+}
+.work_weekly{
+    display: none;
+}
+.work_monthly{
+    display: none;
+}
+/*-----------------------------------*/
+.play_daily{
+    display: block;
+}
+.play_weekly{
+    display: none;
+}
+.play_monthly{
+    display: none;
+}
+/*-----------------------------------*/
+.exercise_daily{
+    display: block;
+}
+.exercise_weekly{
+    display: none;
+}
+.exercise_monthly{
+    display: none;
+}
+/*-----------------------------------*/
+.social_daily{
+    display: block;
+}
+.social_weekly{
+    display: none;
+}
+.social_monthly{
+    display: none;
+}
+/*-----------------------------------*/
+.study_daily{
+    display: block;
+}
+.study_weekly{
+    display: none;
+}
+.study_monthly{
+    display: none;
+}
+/*-----------------------------------*/
+.self_daily{
+    display: block;
+}
+.self_weekly{
+    display: none;
+}
+.self_monthly{
+    display: none;
+}
+.work{
+    background-color: hsl(15, 100%, 70%);
+    width: 350px;
+    height: 300px;
+    border-radius: 20px;
+    overflow: hidden;
+    grid-area: work;
+    justify-self: end;
+}
+
+.icon{
+    background-color: hsl(15, 100%, 70%);
+    height: 60px;
+    display: flex;
+    justify-content: end;
+    overflow: hidden;
+}
+.icon img{
+    height: 90px;
+    padding-right: 20px;
+    position: relative;
+    top: 0px;
+}
+.work_text{
+    border-radius: 20px;
+    background-color: hsl(235, 46%, 20%);
+    height: 250px;
+}
+.work_text h3{
+    color: white;
+    padding: 30px;
+}
+
+.work_text .tempo{
+    color: white;
+    font-size: 75px;
+    padding-left: 20px;
+}
+.work_text p{
+    color: hsl(236, 100%, 87%);
+    padding-left: 20px;
+}
+.work_text:hover{
+    background-color:  hsl(235, 45%, 61%);
+}
+/*-----------------------------------------------------------------*/
+.icon_play{
+    background-color:  hsl(195, 74%, 62%);
+    height: 60px;
+    display: flex;
+    justify-content: end;
+    overflow: hidden;
+}
+.icon_play img{
+    height: 90px;
+    padding-right: 20px;
+    position: relative;
+    top: 0px;
+}
+.play{
+    background-color: hsl(195, 74%, 62%);
+    width: 350px;
+    height: 300px;
+    border-radius: 20px;
+    overflow: hidden;
+    grid-area: play;
+}
+
+.play_text{
+    border-radius: 20px;
+    background-color: hsl(235, 46%, 20%);
+    height: 250px;
+}
+.play_text h3{
+    color: white;
+    padding: 30px;
+}
+
+.play_text .tempo{
+    color: white;
+    font-size: 75px;
+    padding-left: 20px;
+}
+.play_text p{
+    color: hsl(236, 100%, 87%);
+    padding-left: 20px;
+}
+.play_text:hover{
+    background-color:  hsl(235, 45%, 61%);
+}
+/*--------------------------------------------------------------------------------*/
+.icon_study{
+    background-color:  hsl(348, 100%, 68%);
+    height: 60px;
+    display: flex;
+    justify-content: end;
+    overflow: hidden;
+}
+.icon_study img{
+    height: 90px;
+    padding-right: 20px;
+    position: relative;
+    top: 0px;
+}
+.study{
+    background-color: hsl(348, 100%, 68%);
+    width: 350px;
+    height: 300px;
+    border-radius: 20px;
+    overflow: hidden;
+    grid-area: study;
+    justify-self: start;
+}
+
+.study_text{
+    border-radius: 20px;
+    background-color: hsl(235, 46%, 20%);
+    height: 250px;
+}
+.study_text h3{
+    color: white;
+    padding: 30px;
+}
+
+.study_text .tempo{
+    color: white;
+    font-size: 75px;
+    padding-left: 20px;
+}
+.study_text p{
+    color: hsl(236, 100%, 87%);
+    padding-left: 20px;
+}
+.study_text:hover{
+    background-color:  hsl(235, 45%, 61%);
+}
+/*--------------------------------------------------------------------------------------------------------------------------*/
+.icon_exercise{
+    background-color:  hsl(145, 58%, 55%);
+    height: 60px;
+    display: flex;
+    justify-content: end;
+    overflow: hidden;
+}
+.icon_exercise img{
+    height: 90px;
+    padding-right: 20px;
+    position: relative;
+    top: 0px;
+}
+.exercise{
+    background-color:  hsl(145, 58%, 55%);
+    width: 350px;
+    height: 300px;
+    border-radius: 20px;
+    overflow: hidden;
+    grid-area: exercise;
+    justify-self: end;
+}
+
+.exercise_text{
+    border-radius: 20px;
+    background-color: hsl(235, 46%, 20%);
+    height: 250px;
+}
+.exercise_text h3{
+    color: white;
+    padding: 30px;
+}
+
+.exercise_text .tempo{
+    color: white;
+    font-size: 75px;
+    padding-left: 20px;
+}
+.exercise_text p{
+    color: hsl(236, 100%, 87%);
+    padding-left: 20px;
+}
+.exercise_text:hover{
+    background-color:  hsl(235, 45%, 61%);
+}
+/*--------------------------------------------------------------------------------------------------------------------------*/
+.icon_social{
+    background-color: hsl(264, 64%, 52%);
+    height: 60px;
+    display: flex;
+    justify-content: end;
+    overflow: hidden;
+}
+.icon_social img{
+    height: 90px;
+    padding-right: 20px;
+    position: relative;
+    top: 0px;
+}
+.social{
+    background-color:  hsl(264, 64%, 52%);
+    width: 350px;
+    height: 300px;
+    border-radius: 20px;
+    overflow: hidden;
+    grid-area: social;
+}
+
+.social_text{
+    border-radius: 20px;
+    background-color: hsl(235, 46%, 20%);
+    height: 250px;
+}
+.social_text h3{
+    color: white;
+    padding: 30px;
+}
+
+.social_text .tempo{
+    color: white;
+    font-size: 75px;
+    padding-left: 20px;
+}
+.social_text p{
+    color: hsl(236, 100%, 87%);
+    padding-left: 20px;
+}
+.social_text:hover{
+    background-color:  hsl(235, 45%, 61%);
+}
+/*------------------------------------------------------------------------------------------------------------------------*/
+.icon_self{
+    background-color:hsl(43, 84%, 65%);
+    height: 60px;
+    display: flex;
+    justify-content: end;
+    overflow: hidden;
+}
+.icon_self img{
+    height: 90px;
+    padding-right: 20px;
+    position: relative;
+    top: 0px;
+}
+
+.self{
+    background-color:hsl(43, 84%, 65%);
+    width: 350px;
+    height: 300px;
+    border-radius: 20px;
+    overflow: hidden;
+    grid-area: self;
+    justify-self: start;
+}
+
+.self_text{
+    border-radius: 20px;
+    background-color: hsl(235, 46%, 20%);
+    height: 250px;
+}
+.self_text h3{
+    color: white;
+    padding: 30px;
+}
+
+.self_text .tempo{
+    color: white;
+    font-size: 75px;
+    padding-left: 20px;
+}
+.self_text p{
+    color: hsl(236, 100%, 87%);
+    padding-left: 20px;
+}
+.self_text:hover{
+    background-color:  hsl(235, 45%, 61%);
+}
