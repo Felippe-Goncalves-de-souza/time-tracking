@@ -17,20 +17,20 @@
 
     <div class="usuario">
       <div class="info_do_user">
-      <img src="./images/favicon-32x32.png">
+      <img src="./images/image-jeremy.png">
       <h3>Report for</h3>
-      <h2>Felippe Gonçalves</h2>
+      <h2>Usuário</h2>
       </div>
       <div class="dia_semana_mes">
         <ul>
-          <li><button>Daily</button></li>
-          <li><button>Weekly</button></li>
-          <li><button>Monthly</button></li>
+          <li><button id="botao_dia">Daily</button></li>
+          <li><button id="botao_semana">Weekly</button></li>
+          <li><button id="botao_mes">Monthly</button></li>
         </ul>
       </div>
     </div>
 
-    <div class=" work work_daily">
+    <div class=" work work_daily" id="trabalho_dia">
       <div class="icon">
         <img src="./images/icon-work.svg">
       </div>
@@ -41,7 +41,7 @@
       </div>
     </div>
 
-    <div class=" work work_weekly">
+    <div class=" work work_weekly" id="trabalho_semana">
       <div class="icon">
         <img src="./images/icon-work.svg">
       </div>
@@ -52,7 +52,7 @@
       </div>
     </div>
      
-    <div class=" work work_monthly">
+    <div class=" work work_monthly" id="trabalho_mes">
       <div class="icon">
         <img src="./images/icon-work.svg">
       </div>
@@ -63,7 +63,7 @@
       </div>
     </div>
 <!--------------------------------------------------------------------------------------------------------------->
-    <div class="play play_daily">
+    <div class="play play_daily" id="jogo_dia">
       <div class="icon_play">
         <img src="./images/icon-play.svg">
       </div>
@@ -74,7 +74,7 @@
       </div>
     </div>
 
-    <div class="play play_weekly">
+    <div class="play play_weekly" id="jogo_semana">
       <div class="icon_play">
         <img src="./images/icon-play.svg">
       </div>
@@ -85,7 +85,7 @@
       </div>
     </div>
      
-    <div class="play play_monthly">
+    <div class="play play_monthly" id="jogo_mes">
       <div class="icon_play">
         <img src="./images/icon-play.svg">
       </div>
@@ -97,7 +97,7 @@
     </div>
 <!--------------------------------------------------------------------------------------------------------------------------------------->
 
-<div class="study study_daily">
+<div class="study study_daily" id="estudo_dia">
   <div class="icon_study">
     <img src="./images/icon-study.svg">
   </div>
@@ -108,18 +108,18 @@
   </div>
 </div>
 
-<div class="study study_weekly">
+<div class="study study_weekly" id="estudo_semana">
   <div class="icon_study">
     <img src="./images/icon-study.svg">
   </div>
   <div class="study_text">
-    <h3>STUDY</h3>
+    <h3>Study</h3>
     <p class="tempo">4hrs</p>
     <p>Previous - 7hrs</p>
   </div>
 </div>
  
-<div class="study study_monthly">
+<div class="study study_monthly" id="estudo_mes">
   <div class="icon_study">
     <img src="./images/icon-study.svg">
   </div>
@@ -131,7 +131,7 @@
 </div>
 <!---------------------------------------------------------------------------------------------------------------------->
 
-<div class="exercise exercise_daily">
+<div class="exercise exercise_daily" id="exercicio_dia">
   <div class="icon_exercise">
     <img src="./images/icon-exercise.svg">
   </div>
@@ -142,7 +142,7 @@
   </div>
 </div>
 
-<div class="exercise exercise_weekly">
+<div class="exercise exercise_weekly" id="exercicio_semana">
   <div class="icon_exercise">
     <img src="./images/icon-exercise.svg">
   </div>
@@ -153,7 +153,7 @@
   </div>
 </div>
  
-<div class="exercise exercise_monthly">
+<div class="exercise exercise_monthly" id="exercicio_mes">
   <div class="icon_exercise">
     <img src="./images/icon-exercise.svg">
   </div>
@@ -164,7 +164,7 @@
   </div>
 </div>
 <!---------------------------------------------------------------------------------------------------------->
-<div class="social social_daily">
+<div class="social social_daily" id="social_dia">
   <div class="icon_social">
     <img src="./images/icon-social.svg">
   </div>
@@ -175,7 +175,7 @@
   </div>
 </div>
 
-<div class="social social_weekly">
+<div class="social social_weekly" id="social_semana">
   <div class="icon_social">
     <img src="./images/icon-social.svg">
   </div>
@@ -186,7 +186,7 @@
   </div>
 </div>
  
-<div class="social social_monthly">
+<div class="social social_monthly" id="social_mes">
   <div class="icon_social">
     <img src="./images/icon-social.svg">
   </div>
@@ -197,7 +197,7 @@
   </div> 
   </div>
   <!-------------------------------------------------------------------------------------------------->
-  <div class="self self_daily">
+  <div class="self self_daily" id="autocuidado_dia">
     <div class="icon_self">
       <img src="./images/icon-self-care.svg">
     </div>
@@ -208,7 +208,7 @@
     </div>
   </div>
   
-  <div class="self self_weekly">
+  <div class="self self_weekly" id="autocuidado_semana">
     <div class="icon_self">
       <img src="./images/icon-self-care.svg">
     </div>
@@ -219,7 +219,7 @@
     </div>
   </div>
    
-  <div class="self self_monthly">
+  <div class="self self_monthly" id="autocuidado_mes">
     <div class="icon_self">
       <img src="./images/icon-self-care.svg">
     </div>
@@ -229,5 +229,8 @@
       <p>Previous - 11hrs</p>
     </div>
   </div>
+  <script src="./src/js/script.js"></script>
+  <div class="visivel"></div>
+  <div class="invisivel"></div>
 </body>
 </html>

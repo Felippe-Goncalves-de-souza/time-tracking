@@ -7,6 +7,7 @@
        flex-direction: column;
        padding-left: 0;
        padding-top: 500px;
+
     }
     .usuario{
         height: 220px;
@@ -69,6 +70,7 @@
         height: 200px;
         margin-bottom: 20px;
     }
+
     .play_text h3{
         position: absolute;
         color: white;
@@ -92,6 +94,7 @@
         height: 200px;
         margin-bottom: 20px;
     }
+    
     .study_text h3{
         color: white;
         padding: 20px;
@@ -120,6 +123,7 @@
         height: 200px;
         margin-bottom: 20px;
     }
+
     .exercise_text h3{
         color: white;
         padding: 20px;
@@ -148,7 +152,7 @@
         height: 200px;
         margin-bottom: 20px;
     }
-    
+
     .social_text h3{
         position: absolute;
         color: white;
@@ -172,6 +176,7 @@
         height: 200px;
         margin-bottom: 20px;
     }
+
     .self_text h3{
         color: white;
         padding: 20px;
@@ -215,4 +220,5 @@
      .icon_self{
         overflow: visible;
      }
+    
 }

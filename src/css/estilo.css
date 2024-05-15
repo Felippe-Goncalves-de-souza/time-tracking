@@ -27,7 +27,6 @@ body{
     "usuario exercise social self"
 }
 .usuario{
-    border: 1px solid black;
     background-color: hsl(235, 46%, 20%);
     border-radius: 20px;
     justify-self: end;
@@ -408,4 +407,12 @@ body{
 }
 .self_text:hover{
     background-color:  hsl(235, 45%, 61%);
+}
+
+.visivel{
+    display: block;
+}
+
+.invisivel{
+    display: none;
 }
